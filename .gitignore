@@ -84,3 +84,93 @@ cookies_*.json
 *.db3-*
 !.env.example
 !.env.*.example
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dev-debug.log
+
+# Dependency directories
+node_modules/
+
+# Environment variables
+.env
+
+# Editor directories and files
+-p
+.idea
+.vscode
+.github
+.clinerules
+.taskmaster
+.trae
+.windsurf
+venv/*
+.roo
+.cursor
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS specific
+.DS_Store
+
+.roomodes
+AGENTS.md
+CLAUDE.md
+
+# Task files
+# tasks.json
+# tasks/ 
+
+run.bat
+setup.bat
+Folder_Creation.bat
+
+# --- secrets (security rollout) ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+**/credentials.json
+**/client_secret*.json
+**/service_account*.json
+**/creds.json
+
+
+# Private credential files (ordinary source and databases remain eligible)
+.env
+.env.*
+!.env.example
+!.env.*.example
+.ocr_key
+.fernet_key
+.encryption_key
+id_rsa
+id_ed25519
+*.p12
+*.pfx
+*.ppk
+service-account*.json
+*_credentials.json
+credentials.json
+cookies.json
+cookies_*.json
+
+# SQLite databases stay local; never publish database files or journals.
+*.sqlite
+*.sqlite3
+*.db
+*.db3
+*.sqlite-*
+*.sqlite3-*
+*.db-*
+*.db3-*
